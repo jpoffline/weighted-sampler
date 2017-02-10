@@ -10,10 +10,22 @@ REQUIREMENTS TO COMPILE CODE:
 - Running "main" will display the required command-line arguments.
 
 ### Examples
-main -test      Will run unit tests.
-main -double    Will run an example with double data-type choices; sample statistics are analysed.
-main -string    Will run an example with string data-type choices; sample statistics are analysed.
-main -sample N  Will run the sampler (with double data-type), yielding N samples to the screen.
+- To run unit tests:
+```
+main -test
+```
+- Run an example with double data-type choices; sample statistics are analysed.
+```
+main -double    
+```
+- Run an example with string data-type choices; sample statistics are analysed.
+```
+main -string
+```
+- Run the sampler (with double data-type), yielding N samples to the screen.
+```
+main -sample N  
+```
 
 ## Structure 
 - All source code lives in the directory "src". 
